@@ -9,6 +9,13 @@ from utils.history import format_history, get_stats, create_history
 from utils.gemini_client import test_connection
 from utils.city_rules import SUPPORTED_CITIES
 
+# Build FAISS index on startup if not exists (needed for HF Spaces)
+from pathlib import Path
+if not Path("faiss_index/index.faiss").exists():
+    print("Building FAISS index...")
+    from rag.ingest import build_index
+    build_index()
+    
 BIN_CARD = {
     "green":    "🟢 GREEN BIN",
     "blue":     "🔵 BLUE BIN",
