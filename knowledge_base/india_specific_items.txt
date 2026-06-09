@@ -1,0 +1,173 @@
+================================================================
+WASTE CLASSIFICATION KNOWLEDGE BASE - INDIA
+INDIA-SPECIFIC ITEMS (Not found in any global waste dataset)
+This is the unique competitive advantage of this knowledge base.
+================================================================
+
+ITEM: Agarbatti / incense sticks (used, burnt)
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Agarbatti is made from bamboo stick + natural binding paste + fragrance material — all biodegradable and compostable. The ash is also organic.
+COMMON_MISTAKE: Dry bin because it is a stick and feels dry.
+CORRECT_DISPOSAL: Green bin. The ash and stick will compost. Also usable as garden fertilizer.
+PREPARATION: Ensure fully extinguished and cooled.
+
+ITEM: Dhoop / sambrani (incense cone ash and residue)
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Made from natural resins, herbs, and organic binding agents. Fully biodegradable.
+COMMON_MISTAKE: Reject bin or throwing on ground.
+CORRECT_DISPOSAL: Green bin. Ash can also be used for garden composting.
+PREPARATION: Cool fully before disposal.
+
+ITEM: Clay diya (after Diwali / puja — used)
+CATEGORY: Inert / Construction waste or Green bin
+BIN: Green bin (if unglazed terracotta only)
+WHY: Unglazed terracotta is natural clay — biodegradable back into soil. Glazed or painted diyas with synthetic paint are inert waste.
+COMMON_MISTAKE: Mixed bin or left on road indefinitely.
+CORRECT_DISPOSAL: Unglazed plain diyas → bury in garden or green bin (returns to soil). Painted/glazed → dry/inert bin.
+PREPARATION: Check if glazed or painted. Remove any remaining oil/wax first.
+
+ITEM: Puja flowers and garlands (used)
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Natural flowers and leaves are fully compostable. However, synthetic decorations mixed in are NOT.
+COMMON_MISTAKE: Immersing in rivers — causes algal blooms and oxygen depletion.
+CORRECT_DISPOSAL: Green bin. Never immerse in water bodies. Remove any plastic/synthetic elements.
+PREPARATION: Separate real flowers from plastic decorations, synthetic string, foil wrappers.
+
+ITEM: Coconut (offered in puja — whole, broken)
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Coconut husk, shell, and water are all fully biodegradable and compostable.
+COMMON_MISTAKE: Dumping at temple premises or on roadsides.
+CORRECT_DISPOSAL: Green bin. Coconut shell is excellent for home composting or as a fuel in rural areas.
+PREPARATION: Break into pieces for faster composting.
+
+ITEM: Paan wrapper and paan masala pouch (gutka packet)
+CATEGORY: Reject / Non-recyclable
+BIN: Dry bin (reject — non-recyclable)
+WHY: Metallised plastic film + tobacco/chemical residue. Same as chip packet — impossible to recycle. Tobacco residue makes it hazardous.
+COMMON_MISTAKE: Spitting on roads and throwing pouch anywhere — major urban litter problem.
+CORRECT_DISPOSAL: Dry/reject bin. These are extremely difficult to recycle anywhere in the world.
+PREPARATION: None.
+
+ITEM: Supari (betel nut) shells and waste
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Natural plant matter — fully biodegradable.
+COMMON_MISTAKE: Mixing with gutka packets (which are not compostable).
+CORRECT_DISPOSAL: Green bin. Compostable.
+PREPARATION: Separate from any packaging.
+
+ITEM: Old steel tiffin box / dabba (dented, unusable)
+CATEGORY: Dry / Recyclable Waste (Scrap Metal)
+BIN: Blue bin or directly to kabadiwala
+WHY: Stainless steel is 100% recyclable indefinitely. High value scrap metal.
+COMMON_MISTAKE: Keeping unused in kitchen forever.
+CORRECT_DISPOSAL: Blue bin or directly to kabadiwala for better value. Clean first.
+PREPARATION: Clean thoroughly. Remove rubber gasket if present (dry bin separately).
+
+ITEM: Brass puja items (broken, old lamps, idols)
+CATEGORY: Dry / Recyclable (Scrap Metal)
+BIN: Blue bin or directly to scrap dealer
+WHY: Brass (copper + zinc alloy) is 100% recyclable. High scrap value.
+COMMON_MISTAKE: Discarding as sentiment — these are valuable recyclable metals.
+CORRECT_DISPOSAL: If usable → donate to temple or NGO. If not → kabadiwala or scrap dealer.
+PREPARATION: Clean of any puja materials.
+
+ITEM: Dried rangoli / kolam powder (leftover)
+CATEGORY: Organic or Inert depending on type
+BIN: Green bin (natural) / Dry bin (synthetic)
+WHY: Natural rangoli made from rice flour, chalk, or flower petals is compostable. Synthetic chemical-dyed rangoli is inert/reject.
+COMMON_MISTAKE: All rangoli thrown together.
+CORRECT_DISPOSAL: Natural (rice/chalk/flower based) → green bin. Synthetic dyed powders → dry/reject bin.
+PREPARATION: Identify material type — check packaging.
+
+ITEM: Mud / clay from festival idols (Ganesh, Durga — immersion waste)
+CATEGORY: Organic / Inert
+BIN: Garden soil or green bin
+WHY: Natural clay idol = returns to earth naturally. BUT: painted idols with chemical paints, POP (Plaster of Paris) idols are HIGHLY TOXIC to water bodies.
+COMMON_MISTAKE: Immersing POP or painted idols in rivers — destroys aquatic ecosystems (major problem in India).
+CORRECT_DISPOSAL: Natural clay → garden or green bin. POP/synthetic → NEVER immerse in water. Check municipal artificial pond programs.
+PREPARATION: Identify natural clay vs POP. Natural clay = off-white, soft. POP = very white, hard.
+
+ITEM: Old mattress (foam or cotton)
+CATEGORY: Bulk Waste — special collection
+BIN: NOT any standard bin — municipal bulk collection
+WHY: Too large for standard bins. Cotton fill can be composted. Foam is synthetic and non-recyclable. Springs are scrap metal.
+COMMON_MISTAKE: Dumping on roadside — extremely common and creates illegal dumping grounds.
+CORRECT_DISPOSAL: Contact municipal bulk item collection. Cotton fill → kabadiwala (has value). Old mattress dealers sometimes buy for refilling.
+PREPARATION: Call municipality for bulk pickup schedule.
+
+ITEM: Holi colours / gulal (dry powder)
+CATEGORY: Depends on type — Organic or Chemical Hazardous
+BIN: Green bin (natural) / Red bin (synthetic)
+WHY: Traditional natural gulal made from flowers is compostable. Modern synthetic colors often contain mica, heavy metals (lead, mercury), industrial dyes — hazardous.
+COMMON_MISTAKE: All gulal treated the same.
+CORRECT_DISPOSAL: Natural flower/herbal gulal → green bin. Synthetic (bright/neon colors) → red bin.
+PREPARATION: Check packaging — natural brands specify "herbal" or "organic."
+
+ITEM: Old newspaper used as base in pooja thali
+CATEGORY: Organic / Wet Waste (if soiled with ghee, haldi, kumkum)
+BIN: Green bin
+WHY: Once soiled with puja materials (turmeric, kumkum, ghee), the paper is contaminated and cannot be recycled.
+COMMON_MISTAKE: Blue bin because it is newspaper.
+CORRECT_DISPOSAL: Green bin — the organic materials will compost along with the paper.
+PREPARATION: None.
+
+ITEM: Aluminium foil used in puja / bhandara (food service)
+CATEGORY: Dry / Recyclable IF clean, Reject if food-soiled
+BIN: Blue bin (clean) / Green bin (food-soiled)
+WHY: Aluminium is fully recyclable. But food-soiled foil contaminates recycling batches.
+COMMON_MISTAKE: Blue bin without checking cleanliness.
+CORRECT_DISPOSAL: Lightly used/clean → scrunch test (if it stays scrunched, recycle) → blue bin. Food-soiled → green bin.
+PREPARATION: The scrunch test: scrunch into a ball. If it springs back = too thin to recycle. If it stays scrunched = recyclable.
+
+ITEM: Coconut shell (dried, after use)
+CATEGORY: Organic / Wet Waste OR biomass fuel
+BIN: Green bin
+WHY: 100% biodegradable. Also has value as activated carbon source.
+COMMON_MISTAKE: Dry bin or burning openly.
+CORRECT_DISPOSAL: Green bin. Better: home compost (slow but excellent carbon source). Or sell to coconut shell charcoal makers.
+PREPARATION: None.
+
+ITEM: Used filter coffee decoction grounds
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Coffee grounds are rich in nitrogen — excellent compost material. Used heavily as garden fertilizer.
+COMMON_MISTAKE: None usually — but don't flush down sink (clogs pipes over time).
+CORRECT_DISPOSAL: Green bin. Or directly in garden soil. Excellent slug repellent too.
+PREPARATION: Let cool slightly. Do not flush.
+
+ITEM: Old saree / dhoti / kurta (torn, unwearable, natural fiber)
+CATEGORY: Textile Waste — organic if pure cotton
+BIN: NOT regular bins
+WHY: Pure cotton/silk is fully compostable. Synthetic (polyester, nylon) is not.
+COMMON_MISTAKE: Dry bin. Or burning.
+CORRECT_DISPOSAL: Wearable → Goonj or local donations. Pure cotton/silk torn → cut into cleaning rags (kitchen use, cleaning) or compost. Synthetic blends → textile recycling banks.
+PREPARATION: Check label — cotton/silk vs synthetic. Cut into rags if pure cotton.
+
+ITEM: Thermocol (thermocol box from sweets / mithai shops)
+CATEGORY: Reject / Dry waste — non-recyclable locally
+BIN: Dry bin (reject — not recyclable in most Indian cities)
+WHY: EPS (expanded polystyrene) is technically recyclable but no collection infrastructure exists in most Indian cities. Very high volume, very low weight = uneconomical to collect.
+COMMON_MISTAKE: Blue bin thinking it will be recycled.
+CORRECT_DISPOSAL: Reuse for cold storage, packing fragile items. When unusable → dry/reject bin.
+PREPARATION: Reuse first. Never burn — releases toxic styrene gas.
+
+ITEM: Bidi and cigarette butts
+CATEGORY: Hazardous / Reject
+BIN: Dry bin (not in organic — toxic)
+WHY: Cigarette filters are non-biodegradable plastic (cellulose acetate) filled with toxic tar, nicotine, and heavy metals. One butt can contaminate 40 litres of water. Bidi has natural leaf but chemical residue.
+COMMON_MISTAKE: Ground disposal — most common litter item in India.
+CORRECT_DISPOSAL: Dry/reject bin. TerraCycle has cigarette butt recycling in some cities. Never in organic/wet bin.
+PREPARATION: Ensure completely extinguished first.
+
+ITEM: Old mobile phone SIM cards
+CATEGORY: E-Waste
+BIN: E-waste collection
+WHY: Contains gold, silver, and trace electronics. Small but toxic if landfilled.
+COMMON_MISTAKE: Throwing in any bin or leaving unused in drawers.
+CORRECT_DISPOSAL: E-waste collection. Or: destroy physically (scissors) before disposing to protect data.
+PREPARATION: Ensure no data remains. Cut through chip area before disposal.

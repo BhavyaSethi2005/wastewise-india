@@ -1,0 +1,430 @@
+================================================================
+WASTE CLASSIFICATION KNOWLEDGE BASE - INDIA
+Common Household Items (Source: SWM Rules 2016/2026, GreenSutra, BBMP)
+================================================================
+
+--- ORGANIC / WET WASTE (Green Bin) ---
+
+ITEM: Vegetable peels and cuttings
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Fully biodegradable. Breaks down into compost within weeks.
+COMMON_MISTAKE: Wrapping in plastic before throwing. Never use plastic.
+CORRECT_DISPOSAL: Directly in green bin without plastic bag. Can be home composted.
+PREPARATION: No preparation needed.
+
+ITEM: Fruit peels and seeds
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Biodegradable organic matter. Rich in nutrients for composting.
+COMMON_MISTAKE: Mixing with dry waste like paper or cardboard.
+CORRECT_DISPOSAL: Green bin directly. Ideal for kitchen compost bins.
+PREPARATION: None needed.
+
+ITEM: Leftover cooked food / food scraps
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Biodegradable. Goes to composting or biogas plants.
+COMMON_MISTAKE: Leaving in plastic containers or mixing with packaging.
+CORRECT_DISPOSAL: Empty into green bin. Rinse container separately for dry waste.
+PREPARATION: Remove from packaging first.
+
+ITEM: Tea leaves and coffee grounds
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Excellent organic matter. High nitrogen content — great for composting.
+COMMON_MISTAKE: Throwing with paper tea bag still attached.
+CORRECT_DISPOSAL: Green bin. Paper tea bags also go in green bin (biodegradable).
+PREPARATION: None.
+
+ITEM: Eggshells
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Biodegradable calcium-rich organic waste. Excellent for composting.
+COMMON_MISTAKE: Throwing in dry bin thinking it is dry/solid.
+CORRECT_DISPOSAL: Green bin directly.
+PREPARATION: None.
+
+ITEM: Bread and bakery waste
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Fully biodegradable food waste.
+COMMON_MISTAKE: Leaving in plastic bread bag — plastic must be separated.
+CORRECT_DISPOSAL: Remove from plastic bag. Food in green bin. Clean plastic in blue bin.
+PREPARATION: Separate from packaging.
+
+ITEM: Meat and fish waste (bones, skin)
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Biodegradable but can attract pests if not collected quickly.
+COMMON_MISTAKE: Wrapping in newspaper which delays composting.
+CORRECT_DISPOSAL: Green bin. Wrap loosely only if needed to prevent smell.
+PREPARATION: Drain excess liquid.
+
+ITEM: Flowers and leaves (garden/puja)
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Fully biodegradable plant matter.
+COMMON_MISTAKE: Mixing plastic puja packaging with the flowers.
+CORRECT_DISPOSAL: Flowers/leaves in green bin. Any plastic packaging to blue bin.
+PREPARATION: Remove plastic, wire, or synthetic decorations.
+
+ITEM: Garden waste (grass clippings, twigs, leaves)
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Biodegradable. Can be composted or mulched.
+COMMON_MISTAKE: Burning in the garden — illegal and polluting.
+CORRECT_DISPOSAL: Green bin or designated garden waste compost area.
+PREPARATION: Cut large branches into smaller pieces.
+
+ITEM: Coconut shell and husk
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Biodegradable, though slower to break down than food waste.
+COMMON_MISTAKE: Throwing in dry bin because it feels dry.
+CORRECT_DISPOSAL: Green bin. Can also be used for home composting.
+PREPARATION: None needed.
+
+ITEM: Paper used to wrap wet food (soiled paper)
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Once soiled with food, paper is contaminated and cannot be recycled.
+COMMON_MISTAKE: Putting in blue dry bin because it looks like paper.
+CORRECT_DISPOSAL: Green bin. Only clean, dry paper goes to blue bin.
+PREPARATION: None.
+
+ITEM: Banana leaf plates (used)
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Fully biodegradable. Breaks down within days.
+COMMON_MISTAKE: None typically — this one most people get right.
+CORRECT_DISPOSAL: Green bin. Excellent for composting.
+PREPARATION: None.
+
+ITEM: Hair and nail clippings
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Biodegradable organic matter. Slow to decompose but compostable.
+COMMON_MISTAKE: Flushing down drain — clogs pipes.
+CORRECT_DISPOSAL: Green bin.
+PREPARATION: None.
+
+ITEM: Ash from wood/coal (cooled)
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Wood ash is biodegradable and can enrich soil.
+COMMON_MISTAKE: Disposing while still hot — fire hazard.
+CORRECT_DISPOSAL: Let cool completely. Green bin. Also useful as garden fertilizer.
+PREPARATION: Must be fully cooled first.
+
+--- DRY / RECYCLABLE WASTE (Blue Bin) ---
+
+ITEM: Plastic water bottle (PET)
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: PET plastic (type 1) is highly recyclable. Recovered by waste pickers and recyclers.
+COMMON_MISTAKE: Throwing with liquid still inside — contaminates other recyclables.
+CORRECT_DISPOSAL: Empty, rinse, crush, blue bin.
+PREPARATION: Empty and rinse thoroughly. Remove cap separately (also blue bin).
+
+ITEM: Newspaper and magazines
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Clean paper is 100% recyclable. High demand from paper mills.
+COMMON_MISTAKE: Getting wet or soiled — wet newspaper cannot be recycled.
+CORRECT_DISPOSAL: Keep dry. Blue bin. Can also sell to raddi-wala directly.
+PREPARATION: Keep dry. Bundle if possible.
+
+ITEM: Cardboard box (clean and dry)
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Cardboard is widely recycled into new packaging.
+COMMON_MISTAKE: Throwing with tape, staples, or food residue still on it.
+CORRECT_DISPOSAL: Flatten, remove tape/staples, blue bin. Sell to raddi-wala.
+PREPARATION: Flatten. Remove all tape and stickers.
+
+ITEM: Glass bottle or jar (clean)
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Glass is 100% recyclable indefinitely without quality loss.
+COMMON_MISTAKE: Breaking it — broken glass is dangerous for waste workers.
+CORRECT_DISPOSAL: Keep whole if possible. Blue bin. Never crush.
+PREPARATION: Rinse clean. Keep whole. Remove metal lids separately (also blue bin).
+
+ITEM: Steel / aluminium can (food or beverage)
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Metal cans are among the most valuable recyclable materials.
+COMMON_MISTAKE: Leaving food residue inside — contaminates and attracts pests.
+CORRECT_DISPOSAL: Rinse thoroughly. Blue bin. Very high value — waste pickers prioritise these.
+PREPARATION: Rinse. Crush lightly to save space if desired.
+
+ITEM: Plastic packaging (clean, dry)
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Many plastic packaging types are recyclable if clean and dry.
+COMMON_MISTAKE: Throwing food-soiled plastic directly — it becomes reject waste.
+CORRECT_DISPOSAL: Rinse, dry, blue bin. Soiled plastic goes to reject/mixed waste.
+PREPARATION: Rinse and dry thoroughly.
+
+ITEM: Office paper / printing paper (clean)
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: High-quality paper pulp. Very recyclable.
+COMMON_MISTAKE: Mixing shredded paper — too small to sort, ends up in landfill.
+CORRECT_DISPOSAL: Blue bin in whole sheets. Shredded paper → green bin (compostable).
+PREPARATION: Keep dry and clean.
+
+ITEM: Hardcover and paperback books
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Paper content is recyclable. Hardcover spine may need removal.
+COMMON_MISTAKE: Throwing good condition books — consider donating first.
+CORRECT_DISPOSAL: Donate if usable. Otherwise blue bin or raddi-wala.
+PREPARATION: Remove hardcover spine glue for recycling.
+
+ITEM: Tetra Pak / juice cartons
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Recyclable though requires specialized processing. Many facilities accept them.
+COMMON_MISTAKE: Throwing with straw attached or liquid inside.
+CORRECT_DISPOSAL: Rinse, open flat, blue bin. Remove straw.
+PREPARATION: Rinse clean. Open and flatten.
+
+ITEM: Steel utensils (old pots, pans, spoons)
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: High-value scrap metal. Fully recyclable.
+COMMON_MISTAKE: Throwing in mixed waste — valuable scrap lost.
+CORRECT_DISPOSAL: Blue bin or directly to kabadiwala / scrap dealer. Better value directly.
+PREPARATION: None.
+
+ITEM: Aluminium foil (clean)
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Aluminium is highly recyclable when clean.
+COMMON_MISTAKE: Throwing used cooking foil with food grease — not recyclable when soiled.
+CORRECT_DISPOSAL: Only clean foil in blue bin. Food-soiled foil → green bin.
+PREPARATION: Must be clean and dry.
+
+ITEM: Plastic bags (clean, dry)
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Many areas accept clean plastic bags for recycling into plastic lumber.
+COMMON_MISTAKE: Throwing wet or soiled bags — contaminates other recyclables.
+CORRECT_DISPOSAL: Clean and dry only. Bundle together. Blue bin. Many supermarkets have drop-off.
+PREPARATION: Must be clean and dry. No food residue.
+
+ITEM: Cardboard egg tray
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Paper pulp moulding — recyclable if dry and clean.
+COMMON_MISTAKE: Throwing when wet or soiled with egg residue.
+CORRECT_DISPOSAL: Only if clean and dry, blue bin. Otherwise green bin.
+PREPARATION: Check for egg residue. Dry completely.
+
+ITEM: Old notebooks (used)
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Paper is recyclable. Spiral binding (metal) should be removed.
+COMMON_MISTAKE: Leaving spiral binding — metal damages recycling equipment.
+CORRECT_DISPOSAL: Remove spiral binding → blue bin (metal). Pages → blue bin.
+PREPARATION: Remove metal or plastic spiral binding first.
+
+ITEM: Plastic bottle caps
+CATEGORY: Dry / Recyclable Waste
+BIN: Blue bin
+WHY: Polypropylene caps are recyclable.
+COMMON_MISTAKE: Leaving on bottles — different plastic type causes contamination.
+CORRECT_DISPOSAL: Remove from bottle. Both go in blue bin separately.
+PREPARATION: Remove from bottle.
+
+--- SANITARY WASTE (Yellow Bin / Separate sealed bag) ---
+
+ITEM: Sanitary napkins / pads
+CATEGORY: Sanitary Waste
+BIN: Yellow bin or sealed separately
+WHY: Biomedical sanitary waste. Cannot be composted or recycled. Contains bodily fluids.
+COMMON_MISTAKE: Flushing down toilet — major cause of drain blockages across India.
+CORRECT_DISPOSAL: Wrap in newspaper or paper, seal in yellow bin. Never flush.
+PREPARATION: Wrap securely before disposal. Never put loose in any bin.
+
+ITEM: Diapers (used)
+CATEGORY: Sanitary Waste
+BIN: Yellow bin or sealed separately
+WHY: Contains human waste and synthetic materials. Cannot be composted.
+COMMON_MISTAKE: Throwing in green bin thinking organic content makes it compostable.
+CORRECT_DISPOSAL: Seal in yellow bin or a separate sealed bag.
+PREPARATION: Roll up and seal the sticky tabs. Wrap in paper.
+
+ITEM: Razors (used, disposable)
+CATEGORY: Sanitary Waste
+BIN: Yellow bin
+WHY: Sharp + hygienic waste. Risk of injury and blood-borne contamination.
+COMMON_MISTAKE: Throwing loose in any bin — dangerous for waste workers.
+CORRECT_DISPOSAL: Cap the blade or wrap tightly in thick paper. Yellow bin.
+PREPARATION: Cap or wrap blade securely before disposal.
+
+ITEM: Tissue paper and paper towels (used)
+CATEGORY: Sanitary Waste
+BIN: Yellow bin / Green bin
+WHY: Soiled tissue cannot be recycled. If used with food only, goes to green bin.
+COMMON_MISTAKE: Throwing in blue dry waste bin — soiled tissue is not recyclable.
+CORRECT_DISPOSAL: Used for food → green bin. Used for bodily fluids → yellow bin.
+PREPARATION: None.
+
+ITEM: Cotton balls and ear buds (used)
+CATEGORY: Sanitary Waste
+BIN: Yellow bin
+WHY: Hygienic waste. Ear buds also have plastic sticks that don't decompose.
+COMMON_MISTAKE: Flushing ear buds — major ocean microplastic contributor.
+CORRECT_DISPOSAL: Yellow bin. Never flush. Switch to paper-stem ear buds.
+PREPARATION: None.
+
+--- HAZARDOUS HOUSEHOLD WASTE (Red Bin / Special disposal) ---
+
+ITEM: AA, AAA, C, D batteries (used)
+CATEGORY: E-Waste
+BIN: Black bin / E-waste collection
+WHY: Contain lead, cadmium, and mercury. Leach into soil and water when landfilled. Cadmium causes kidney damage and cancer.
+COMMON_MISTAKE: Throwing in dry/blue bin — extremely common and very harmful.
+CORRECT_DISPOSAL: Red bin. Many electronics stores and malls have drop-off boxes. Never crush.
+PREPARATION: Do not crush or puncture. Tape terminals to prevent short circuit.
+
+ITEM: CFL bulbs (compact fluorescent)
+CATEGORY: E-Waste
+BIN: Black bin / E-waste collection centre
+WHY: Under India's E-Waste Rules 2022, CFL bulbs are classified as e-waste. Contains mercury vapour — toxic to humans and environment. If broken indoors, evacuate briefly.
+COMMON_MISTAKE: Throwing in dry waste or red bin — CFL is e-waste under Indian law, not general hazardous.
+CORRECT_DISPOSAL: Keep whole. Wrap carefully. Black bin (Indore) or e-waste collection centre. Return to electronics retailer.
+PREPARATION: Do not break. Wrap in original packaging or newspaper.
+
+ITEM: Tube light / fluorescent tube
+CATEGORY: E-Waste
+BIN: Black bin / E-waste collection centre
+WHY: Under India's E-Waste Rules 2022, fluorescent tubes are e-waste. Contains mercury and phosphor powder — do not break.
+COMMON_MISTAKE: Breaking to fit in bin — releases toxic mercury vapour.
+CORRECT_DISPOSAL: Keep whole. Black bin (Indore) or e-waste collection centre.
+PREPARATION: Do not break. Transport whole.
+
+ITEM: Expired or unused medicines (tablets, syrups)
+CATEGORY: Domestic Hazardous Waste
+BIN: Red bin / Pharmacy take-back
+WHY: Pharmaceutical compounds contaminate groundwater. Flushing adds chemicals to water supply.
+COMMON_MISTAKE: Flushing down toilet or throwing in regular bin — water contamination.
+CORRECT_DISPOSAL: Return to pharmacy (many run take-back programs). Or red bin.
+PREPARATION: Keep in original packaging if possible.
+
+ITEM: Pesticides and insecticides (empty cans or leftover)
+CATEGORY: Domestic Hazardous Waste
+BIN: Red bin / Hazardous waste collection
+WHY: Highly toxic chemicals that persist in soil for years. Kill insects, birds, and contaminate groundwater.
+COMMON_MISTAKE: Rinsing and throwing in regular bin — residue remains toxic.
+CORRECT_DISPOSAL: Do not rinse. Seal tightly. Red bin or hazardous waste collection event.
+PREPARATION: Seal original container tightly. Never puncture.
+
+ITEM: Paint cans (leftover paint or empty)
+CATEGORY: Domestic Hazardous Waste
+BIN: Red bin / Hazardous collection
+WHY: Oil-based paints contain solvents toxic to aquatic life. Even dry paint residue is hazardous.
+COMMON_MISTAKE: Pouring leftover paint down drain — pollutes water systems severely.
+CORRECT_DISPOSAL: Let leftover paint dry fully, then red bin. Never pour down drain.
+PREPARATION: Let dry completely if possible. Seal empty cans.
+
+ITEM: Cleaning chemicals (bleach, phenyl, acid)
+CATEGORY: Domestic Hazardous Waste
+BIN: Red bin
+WHY: Corrosive and toxic. Mixing different chemicals can create toxic gases.
+COMMON_MISTAKE: Pouring down drain — kills beneficial bacteria in sewage treatment.
+CORRECT_DISPOSAL: Use up completely. Empty container in red bin. Never mix chemicals.
+PREPARATION: Rinse empty container only if safe to do so. Seal tightly.
+
+ITEM: Used motor oil or engine oil
+CATEGORY: Domestic Hazardous Waste
+BIN: Red bin / Oil recycling
+WHY: One litre of motor oil can contaminate one million litres of water.
+COMMON_MISTAKE: Pouring on ground or in drain — destroys soil and water ecosystems.
+CORRECT_DISPOSAL: Collect in sealed container. Return to auto repair shop or oil recycling centre.
+PREPARATION: Store in original container or sealed plastic container.
+
+ITEM: Fire extinguisher (expired)
+CATEGORY: Domestic Hazardous Waste
+BIN: Special disposal only
+WHY: Pressurized container with chemical agents. Can explode if punctured or incinerated.
+COMMON_MISTAKE: Throwing in any regular bin — explosion hazard.
+CORRECT_DISPOSAL: Contact manufacturer or municipal hazardous waste collection. Never puncture.
+PREPARATION: Do not discharge, crush, or puncture.
+
+--- E-WASTE (Black Bin / E-waste collection centre) ---
+
+ITEM: Old mobile phone / smartphone
+CATEGORY: E-Waste
+BIN: E-waste collection centre
+WHY: Contains lead, mercury, cadmium, arsenic and rare earth metals. Toxic when incinerated. Valuable metals recoverable.
+COMMON_MISTAKE: Throwing in any regular bin or selling to roadside scrap for pennies.
+CORRECT_DISPOSAL: Brand take-back programs (Samsung, Apple, etc.). Govt. e-waste centres. Authorized refurbishers.
+PREPARATION: Remove SIM card and SD card. Factory reset to protect data.
+
+ITEM: Old laptop or computer
+CATEGORY: E-Waste
+BIN: E-waste collection centre
+WHY: Contains many hazardous materials including lead solder, mercury screens, cadmium batteries.
+COMMON_MISTAKE: Leaving in storage indefinitely — e-waste sitting at home still causes no harm but valuable materials are wasted.
+CORRECT_DISPOSAL: Manufacturer take-back. Certified e-waste recyclers. DO NOT give to unauthorized scrap dealers who burn it.
+PREPARATION: Back up data. Factory reset. Remove battery if easily detachable.
+
+ITEM: Charger cables and adapters (old, broken)
+CATEGORY: E-Waste
+BIN: E-waste collection centre
+WHY: Contains copper wire (valuable), plastic, and small electronic components with hazardous materials.
+COMMON_MISTAKE: Throwing in dry bin thinking it is just wire and plastic.
+CORRECT_DISPOSAL: E-waste bin or collection centre. Often accepted at electronics stores.
+PREPARATION: None.
+
+ITEM: Earphones and headphones (broken)
+CATEGORY: E-Waste
+BIN: E-waste collection centre
+WHY: Small electronic components, copper wire, magnets — all require proper recycling.
+COMMON_MISTAKE: Blue/dry bin because they feel like just plastic.
+CORRECT_DISPOSAL: E-waste collection. Some brands have take-back programs.
+PREPARATION: None.
+
+ITEM: Old television (CRT or LED)
+CATEGORY: E-Waste
+BIN: E-waste collection centre
+WHY: CRT TVs contain 2–4kg of lead in the glass. Highly toxic if crushed or incinerated.
+COMMON_MISTAKE: Selling to kabadiwala who may not process it safely.
+CORRECT_DISPOSAL: Brand take-back program or certified e-waste recycler only.
+PREPARATION: Do not break the screen. Handle with care.
+
+ITEM: Keyboard, mouse, computer peripherals
+CATEGORY: E-Waste
+BIN: E-waste collection centre
+WHY: Electronic components and plastics require specialized recycling.
+COMMON_MISTAKE: Blue/dry bin.
+CORRECT_DISPOSAL: E-waste collection centre. Often bundled with computer disposal.
+PREPARATION: None.
+
+ITEM: Old router or modem
+CATEGORY: E-Waste
+BIN: E-waste collection centre
+WHY: Electronic circuit boards with hazardous soldering materials.
+COMMON_MISTAKE: Dry bin or forgotten in drawer.
+CORRECT_DISPOSAL: E-waste collection centre or ISP take-back (Airtel, Jio, BSNL sometimes accept).
+PREPARATION: Factory reset if concerned about data.
+
+ITEM: Batteries from laptops / phones (lithium)
+CATEGORY: E-Waste (Hazardous)
+BIN: E-waste collection centre — NEVER regular bin
+WHY: Lithium batteries can catch fire (thermal runaway) if punctured or crushed. Highly hazardous.
+COMMON_MISTAKE: Puncturing, bending, or throwing in any regular waste bin.
+CORRECT_DISPOSAL: E-waste centres that handle lithium batteries specifically. Brand service centres.
+PREPARATION: Do not bend, puncture, or short circuit. Transport separately.
+
+ITEM: LED bulbs (standard household)
+CATEGORY: E-Waste
+BIN: E-waste collection centre or blue bin (check locally)
+WHY: Contains small circuit board and electronic components. Not as hazardous as CFL but still e-waste.
+COMMON_MISTAKE: Throwing in dry bin like a regular bulb.
+CORRECT_DISPOSAL: E-waste collection. Some municipalities allow blue bin for LED. Check locally.
+PREPARATION: Do not break.

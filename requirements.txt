@@ -1,0 +1,81 @@
+# ============================================================
+# WasteWise India — requirements.txt
+# Python 3.13 compatible | CPU only | Zero cost
+# Last verified: May 2026
+# Install order matters — follow README instructions
+# ============================================================
+
+# ------------------------------------------------------------
+# 1. CORE ML — PyTorch CPU (install this FIRST separately)
+# ------------------------------------------------------------
+# Run this command BEFORE pip install -r requirements.txt:
+# pip install torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.7.0
+torchvision==0.22.0
+
+# ------------------------------------------------------------
+# 2. COMPUTER VISION — Image classification
+# ------------------------------------------------------------
+Pillow==11.2.1                   # Image loading, resizing, format conversion
+numpy==2.2.5                     # Array ops — required by torch + FAISS
+
+# ------------------------------------------------------------
+# 3. RAG PIPELINE — Embeddings + Vector store
+# ------------------------------------------------------------
+sentence-transformers==3.4.1     # all-MiniLM-L6-v2 embeddings for FAISS
+faiss-cpu==1.11.0                # Local vector store — Python 3.13 wheel confirmed
+langchain==0.3.25                # Text splitting + retriever orchestration
+langchain-community==0.3.23      # FAISS integration with LangChain
+
+# ------------------------------------------------------------
+# 4. LLM — Gemini API (vision + text generation)
+# ------------------------------------------------------------
+google-generativeai==0.8.5       # Gemini 1.5 Flash SDK — 1500 req/day free
+
+# ------------------------------------------------------------
+# 5. UI — Gradio interface
+# ------------------------------------------------------------
+gradio==5.29.0                   # Web UI — HuggingFace Spaces compatible
+
+# ------------------------------------------------------------
+# 6. UTILITIES
+# ------------------------------------------------------------
+python-dotenv==1.1.0             # Load GEMINI_API_KEY from .env file
+requests==2.32.3                 # HTTP calls (used by google-generativeai)
+tqdm==4.67.1                     # Progress bars during model loading + ingest
+pathlib2==2.3.7.post1            # Path handling across OS (Win/Mac/Linux)
+
+# ------------------------------------------------------------
+# 7. TESTING
+# ------------------------------------------------------------
+pytest==8.3.5                    # Test runner
+pytest-cov==6.1.0                # Code coverage reports
+
+# ------------------------------------------------------------
+# 8. CODE QUALITY (professional standard)
+# ------------------------------------------------------------
+black==25.1.0                    # Auto code formatter — run before every commit
+flake8==7.2.0                    # Linter — catches errors before runtime
+isort==6.0.1                     # Auto sorts imports cleanly
+
+# ============================================================
+# INSTALL INSTRUCTIONS (run in this exact order):
+#
+# 1. Create and activate venv:
+#    python -m venv venv
+#    venv\Scripts\activate        (Windows)
+#    source venv/bin/activate     (Mac/Linux)
+#
+# 2. Upgrade pip:
+#    python -m pip install --upgrade pip
+#
+# 3. Install PyTorch CPU FIRST (separate command):
+#    pip install torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cpu
+#
+# 4. Install everything else:
+#    pip install -r requirements.txt --ignore-requires-python
+#
+# 5. Verify install:
+#    python -c "import torch, gradio, langchain, faiss, google.generativeai; print('All good')"
+#
+# ============================================================

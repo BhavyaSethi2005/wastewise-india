@@ -1,0 +1,80 @@
+================================================================
+WASTE CLASSIFICATION KNOWLEDGE BASE - INDIA
+DISPOSAL LOCATIONS & ACTION GUIDE
+(Where to actually go for special waste)
+================================================================
+
+--- E-WASTE DISPOSAL ---
+
+NATIONAL E-WASTE COLLECTION PROGRAMS:
+- All registered e-waste recyclers listed at: cpcb.nic.in (Central Pollution Control Board)
+- Producer Responsibility: Under E-Waste Rules 2022, all electronics brands MUST provide take-back
+- Samsung: samsung.com/in/takeback — free pickup for old Samsung devices
+- Apple: apple.com/in/trade-in — trade-in or free recycling
+- Dell: dell.com/en-in/dt/recycling — free drop-off
+- HP: hp.com/in-en/recycling — take-back program
+- Motorola, Xiaomi: contact customer service — all must by law accept e-waste
+
+CITY E-WASTE COLLECTION CENTRES:
+- Indore: IMC (Indore Municipal Corporation) e-waste drive held quarterly. Check imcindore.org
+- Delhi: Check dpcc.delhigovernment.gov.in for authorised recyclers
+- Mumbai: BMC collection drives. mpcb.gov.in for authorised recyclers
+- Bengaluru: BBMP e-waste collection. bbmp.gov.in
+
+--- HAZARDOUS WASTE (BATTERIES, MEDICINES, CHEMICALS) ---
+
+BATTERIES:
+- Many electronics stores (Croma, Reliance Digital) have battery collection boxes near exit
+- Energizer and Duracell run collection programs at select retailers
+- Municipal hazardous waste collection events (check local municipal app or website)
+
+MEDICINES:
+- Ask at any government hospital — they have pharmaceutical waste bins
+- Many chemist shops in Indore, Mumbai, Bengaluru now accept unused medicines
+- Check: pharmacycouncil.org for registered take-back pharmacies
+
+COOKING OIL:
+- BIOFUEL INDIA: collectoldcookingoil.com — home pickup for used cooking oil (converts to biodiesel)
+- Many municipal bodies in Bengaluru and Chennai run used oil collection drives
+- Contact local biodiesel plants
+
+--- TEXTILE WASTE ---
+
+DONATION (good condition clothes):
+- Goonj: goonj.org — pan-India network, accepts all clothing
+- Local gurudwaras, mosques, temples — usually have collection bins
+- iCall India — clothes donation
+
+RECYCLING (unwearable textiles):
+- H&M stores in India: in-store textile recycling bins (any brand, any condition)
+- Zara India: in-store collection
+- Upcyclers like Reweave India: reweave.in
+
+--- BULK / LARGE ITEMS ---
+
+Contact your municipal corporation for bulk item pickup:
+- Indore: Call 0731-2972001 (IMC helpline) or use IMC mobile app
+- Delhi: MCD helpline: 1800-11-0093
+- Mumbai: BMC helpline: 1916
+- Bengaluru: BBMP helpline: 080-22975555
+
+--- REPORTING ILLEGAL DUMPING ---
+- Swachh Bharat Mission app: Report illegal dumping with photos
+- Local ward office
+- CPCB complaint portal: cpcb.nic.in/complaints
+
+--- USEFUL APPS FOR WASTE MANAGEMENT (INDIA) ---
+- Saahas Zero Waste App: Find nearest recycling drop-off
+- Swachh Bharat App: Report waste, track collection
+- BBMP App (Bengaluru specific): Schedule pickup
+- IMC App (Indore specific): Track waste collection
+
+--- GENERAL RULES EVERY INDIAN SHOULD KNOW ---
+
+1. Under SWM Rules 2016/2026, SEGREGATION AT SOURCE is MANDATORY for all households
+2. Bulk generators (>100kg/day) face penalties for non-segregation
+3. Burning waste of any kind in open is ILLEGAL under Air Prevention Act
+4. Littering in public can attract fines (varies by city: Rs.500 to Rs.5000)
+5. E-waste Rules 2022 mandate that all electronics brands MUST take back old products
+6. Plastic bags below 75 microns are BANNED nationally since July 2022
+7. Single-use plastic cutlery, straws, plates are BANNED nationally since July 2022

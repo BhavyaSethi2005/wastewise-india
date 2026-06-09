@@ -1,0 +1,148 @@
+================================================================
+WASTE CLASSIFICATION KNOWLEDGE BASE - INDIA
+CONFUSING & TRICKY ITEMS (Items people consistently get wrong)
+================================================================
+
+ITEM: Medicine blister pack (foil + plastic strip)
+CATEGORY: Domestic Hazardous Waste
+BIN: Red bin
+WHY: The aluminium foil is laminated with plastic — impossible to separate. Contains pharmaceutical chemical residues trapped in the foil. When landfilled, these leach into groundwater over years. Cannot be recycled by standard recyclers.
+COMMON_MISTAKE: Blue/dry bin because it looks like foil + plastic packaging.
+CORRECT_DISPOSAL: Collect in a separate bag. Return to pharmacy (many chemists in India have take-back bins). Or red bin.
+PREPARATION: No rinsing needed. Keep dry.
+
+ITEM: Pizza box (greasy / oily cardboard)
+CATEGORY: Reject / Mixed Waste (NOT dry waste)
+BIN: Green bin (composting) or reject
+WHY: The cardboard itself is recyclable but grease contamination renders it useless for paper mills. Oil-soaked fibers break down recycling equipment. However, it IS compostable — the grease is organic.
+COMMON_MISTAKE: Blue/dry bin because it is cardboard.
+CORRECT_DISPOSAL: If heavily greasy — green bin (it will compost). If only slightly greasy — tear the clean top lid into blue bin, greasy bottom into green bin.
+PREPARATION: Tear into sections based on contamination level.
+
+ITEM: Bubble wrap (plastic film)
+CATEGORY: Dry Waste — BUT check locally
+BIN: Blue bin (collect separately, don't mix)
+WHY: Bubble wrap is LDPE plastic (type 4) — technically recyclable but most curbside programs cannot process plastic film. It jams sorting machinery.
+COMMON_MISTAKE: Mixing with other plastic recyclables — jams recycling machines.
+CORRECT_DISPOSAL: Collect clean bubble wrap separately. Drop at plastic film collection points (some supermarkets). Or reuse for packing. Check your local facility.
+PREPARATION: Must be completely clean and dry. No tape attached.
+
+ITEM: Thermocol / Styrofoam packaging
+CATEGORY: Dry Waste / Reject
+BIN: Blue bin or reject (check locally)
+WHY: Expanded polystyrene (EPS) is technically recyclable but almost no Indian municipal facility processes it. Very low density = high volume, low value. Most ends up in landfill.
+COMMON_MISTAKE: Thinking it is recyclable like other plastics.
+CORRECT_DISPOSAL: Reuse for packaging if possible. Check for styrofoam drop-off points in your city. Otherwise dry bin — accept that it will likely landfill.
+PREPARATION: Keep clean and dry. Do not break into small beads — beads escape everywhere.
+
+ITEM: Old clothing and textiles (torn, stained, unwearable)
+CATEGORY: Textile Waste (separate category)
+BIN: NOT any regular bin — textile recycling drop-off
+WHY: Textiles are neither compostable (synthetic fibers) nor recyclable in standard streams. They jam sorting equipment. Natural fibers like cotton CAN be composted but synthetic blends cannot.
+COMMON_MISTAKE: Blue bin. Or burning — highly toxic smoke from synthetic fabrics.
+CORRECT_DISPOSAL: Good condition → donate (Goonj, local NGOs). Unwearable → textile recycling banks (H&M, Zara collect in India). Pure cotton → can be cut into rags or composted.
+PREPARATION: Sort: wearable vs unwearable. Check fabric content label for cotton vs synthetic.
+
+ITEM: Broken ceramic / porcelain (cup, plate, mug)
+CATEGORY: Inert / Construction Waste
+BIN: Separate from all other bins
+WHY: Ceramic cannot be recycled with glass — different melting points. Not compostable. Sharp edges are dangerous for waste workers.
+COMMON_MISTAKE: Blue bin with glass, or any regular bin.
+CORRECT_DISPOSAL: Wrap in thick newspaper or cloth tightly. Tape shut. Label "BROKEN — SHARP." Separate drop-off or bulk item collection.
+PREPARATION: Wrap VERY carefully — serious injury risk. Label the package.
+
+ITEM: Receipts and ATM slips (thermal paper)
+CATEGORY: Reject / Non-recyclable dry waste
+BIN: Dry bin (but NOT recyclable)
+WHY: Thermal paper is coated with BPA or BPS chemicals. These contaminate paper recycling batches and expose recycling workers to hormone-disrupting chemicals. Cannot be recycled.
+COMMON_MISTAKE: Blue/dry bin thinking it is recyclable paper.
+CORRECT_DISPOSAL: Dry bin (as non-recyclable). Keep away from paper recycling.
+PREPARATION: Do not wet. Separate from recyclable paper.
+
+ITEM: Stickers and sticky labels (from bottles, packaging)
+CATEGORY: Non-recyclable / Reject
+BIN: Green bin or reject
+WHY: Adhesive on stickers contaminates paper recycling and gunks up machinery. The sticker paper itself is usually non-recyclable due to silicone release liner.
+COMMON_MISTAKE: Leaving on bottles/cartons going into blue bin — contaminates batch.
+CORRECT_DISPOSAL: Remove stickers from recyclable containers. Stickers themselves → green bin (small, compostable) or reject.
+PREPARATION: Always remove stickers before recycling containers.
+
+ITEM: Shampoo / conditioner bottle (plastic with residue)
+CATEGORY: Dry / Recyclable BUT needs preparation
+BIN: Blue bin ONLY if thoroughly rinsed
+WHY: Residual shampoo contaminates the entire batch of recyclable plastic. A single un-rinsed bottle can ruin 200kg of recyclable plastic.
+COMMON_MISTAKE: Throwing in blue bin without rinsing because it seems mostly empty.
+CORRECT_DISPOSAL: Add water, shake to get remaining product out (use it!), rinse 2–3 times, then blue bin.
+PREPARATION: Rinse minimum 2–3 times until water runs clear.
+
+ITEM: Broken mirror or window glass
+CATEGORY: Inert / Special waste (NOT with regular glass)
+BIN: Separate — NOT blue bin
+WHY: Mirrors have a silver/aluminium coating that contaminates glass recycling. Broken glass is dangerous for workers. Window glass (float glass) has different composition than bottle glass.
+COMMON_MISTAKE: Blue bin with bottles and jars.
+CORRECT_DISPOSAL: Wrap VERY securely in thick cardboard and tape. Label CLEARLY "BROKEN GLASS — SHARP." Separate bag or box. Contact municipal bulk item collection.
+PREPARATION: Wrap in cardboard, tape all edges. Write warning label. NEVER put loose.
+
+ITEM: Newspaper used to wrap fish or meat (soiled)
+CATEGORY: Organic / Wet Waste
+BIN: Green bin
+WHY: Once soiled with fish/meat juices, newspaper is 100% contaminated — not recyclable. But it IS compostable.
+COMMON_MISTAKE: Blue bin because it is newspaper.
+CORRECT_DISPOSAL: Green bin. The paper + organic matter will compost together.
+PREPARATION: None — throw as is.
+
+ITEM: Takeaway plastic containers with food residue
+CATEGORY: Dry Recyclable ONLY if rinsed, otherwise Reject
+BIN: Blue bin (rinsed) or Reject/Mixed (unrinsed)
+WHY: Plastic itself is recyclable. Food residue causes bacterial contamination and odor that ruins entire recycling batches.
+COMMON_MISTAKE: Blue bin without rinsing.
+CORRECT_DISPOSAL: Rinse clean → blue bin. Cannot or won't rinse → reject/mixed bin.
+PREPARATION: Rinse all food residue out. Scrape before rinsing to save water.
+
+ITEM: Wet wipes / baby wipes
+CATEGORY: Sanitary / Reject Waste
+BIN: Yellow bin or dry bin (NOT compost, NOT flush)
+WHY: Most wet wipes contain synthetic plastic fibers (polyester). Even "biodegradable" ones break down slowly. They do NOT break down in sewage like toilet paper.
+COMMON_MISTAKE: Flushing — causes fatbergs and drain blockages. Or green bin thinking it is organic.
+CORRECT_DISPOSAL: Yellow/sanitary bin or dry bin. NEVER flush.
+PREPARATION: None.
+
+ITEM: Old shoes and footwear (rubber + fabric)
+CATEGORY: Textile/Rubber Waste — NOT regular recycling
+BIN: Separate — not in any standard bin
+WHY: Mixed materials (rubber sole + fabric upper + synthetic lining) make recycling extremely difficult. Rubber does not biodegrade for hundreds of years.
+COMMON_MISTAKE: Blue bin, or burning — burning rubber releases toxic gases including dioxins.
+CORRECT_DISPOSAL: Good condition → donate. Worn out → check Nike Reuse-A-Shoe or brand take-back. Otherwise dry bin (landfill is the only option currently for most worn shoes).
+PREPARATION: Tie pairs together. Check for donation first.
+
+ITEM: Used cooking oil (large amounts)
+CATEGORY: Hazardous to water / Special disposal
+BIN: Never pour down drain — special collection
+WHY: One litre of cooking oil can contaminate 1 million litres of water and create a waterproof film that stops oxygen entering water bodies, killing aquatic life.
+COMMON_MISTAKE: Pouring down kitchen sink — most common and most harmful mistake.
+CORRECT_DISPOSAL: Let cool. Collect in sealed bottle. Many municipalities and NGOs collect used cooking oil for biodiesel production. Or absorb with newspaper/sand and green bin.
+PREPARATION: Cool completely. Collect in sealed container.
+
+ITEM: Chip packets and namkeen wrappers (metallised plastic film)
+CATEGORY: Reject / Non-recyclable
+BIN: Dry bin (non-recyclable)
+WHY: Metallised plastic film (looks shiny silver inside) is laminated with aluminium — impossible to separate. Not recyclable in any standard facility. Common misconception that it is recyclable.
+COMMON_MISTAKE: Blue bin because it is a plastic bag.
+CORRECT_DISPOSAL: Dry/reject bin. Some brands run take-back programs (Lay's Terracycle). Check.
+PREPARATION: None.
+
+ITEM: Toothbrush (plastic)
+CATEGORY: E-waste Adjacent / Reject
+BIN: Dry bin (non-recyclable as is)
+WHY: Mix of materials — nylon bristles, polypropylene handle — cannot be separated easily and rejected by most recyclers.
+COMMON_MISTAKE: Blue bin.
+CORRECT_DISPOSAL: TerraCycle or specialized collection. Otherwise dry/reject bin. Switch to bamboo toothbrush.
+PREPARATION: None.
+
+ITEM: Peanut butter / jam jar with residue
+CATEGORY: Dry Recyclable ONLY if clean
+BIN: Blue bin if clean, reject if not cleaned
+WHY: Oily/sticky food residue is very difficult to remove and contaminates glass recycling.
+COMMON_MISTAKE: Blue bin without proper cleaning.
+CORRECT_DISPOSAL: Fill with hot water and dish soap, shake vigorously, rinse. If clean → blue bin. If stubbornly sticky → reject bin.
+PREPARATION: Hot water + soap cleaning is essential.
