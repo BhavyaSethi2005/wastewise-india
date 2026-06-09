@@ -79,3 +79,4 @@ isort==6.0.1                     # Auto sorts imports cleanly
 #    python -c "import torch, gradio, langchain, faiss, google.generativeai; print('All good')"
 #
 # ============================================================
+langchain-huggingface==0.1.2
