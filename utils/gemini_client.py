@@ -12,7 +12,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 logger = logging.getLogger(__name__)
 
-MODEL = "gemini-1.5-flash"
+MODEL = "gemini-3.5-flash"
 CATEGORIES = ["organic", "dry_recyclable", "hazardous", "e_waste", "sanitary", "unknown"]
 
 
