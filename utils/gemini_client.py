@@ -1,29 +1,31 @@
 """
 utils/gemini_client.py
-Gemini 3.1 Flash Lite — single call, no unnecessary rate limiting.
+Gemini wrapper using google-generativeai SDK (works on HF Spaces).
 """
 
 import os, json, logging
 from PIL import Image
 from dotenv import load_dotenv
-from google import genai
+import google.generativeai as genai
 
 load_dotenv()
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 logger = logging.getLogger(__name__)
-MODEL = "gemini-3.1-flash-lite"
+
+MODEL = "gemini-1.5-flash"
 CATEGORIES = ["organic", "dry_recyclable", "hazardous", "e_waste", "sanitary", "unknown"]
 
 
 def _call(prompt: str, image: Image.Image = None) -> str:
-    """Single Gemini call with 3 retries. No artificial delay."""
+    """Single Gemini call with 3 retries."""
     for attempt in range(3):
         try:
+            model = genai.GenerativeModel(MODEL)
             contents = [prompt, image] if image else prompt
-            return client.models.generate_content(model=MODEL, contents=contents).text.strip()
+            return model.generate_content(contents).text.strip()
         except Exception as e:
             if "429" in str(e) or "quota" in str(e).lower():
-                import time; time.sleep(10)  # only wait on actual rate limit
+                import time; time.sleep(10)
             elif attempt == 2:
                 raise
 
