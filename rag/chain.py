@@ -14,7 +14,7 @@ def run_pipeline(
     image: Image.Image = None,
     text_input: str = "",
     language: str = "English",
-    city: str = "Other",
+    city: str = "Other (National Standard)",
     history: list = None
 ) -> tuple[dict, list]:
 
