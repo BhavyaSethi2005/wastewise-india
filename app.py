@@ -61,7 +61,7 @@ def classify(image, text_input, language, city, history_state):
 
 
 def clear_all():
-    return None, "", "English", "Other", [], "", "", "", "", create_history()
+    return None, "", "English", "Other (National Standard)", [], "", "", "", "", create_history()
 
 
 with gr.Blocks(title="WasteWise India", theme=gr.themes.Soft()) as app:
@@ -77,7 +77,7 @@ with gr.Blocks(title="WasteWise India", theme=gr.themes.Soft()) as app:
                     text_input  = gr.Textbox(label="Or describe the item",
                                              placeholder="e.g. medicine strip, broken CFL bulb...")
                     with gr.Row():
-                        city     = gr.Dropdown(SUPPORTED_CITIES, value="Other", label="Your City")
+                        city = gr.Dropdown(SUPPORTED_CITIES, value="Other (National Standard)", label="Your City", allow_custom_value=True)
                         language = gr.Radio(["English", "Hindi"], value="English", label="Language")
                     with gr.Row():
                         classify_btn = gr.Button("🔍 Classify", variant="primary")

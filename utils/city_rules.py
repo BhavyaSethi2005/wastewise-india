@@ -90,11 +90,10 @@ TIER3_NATIONAL = {
 
 # ── Build full city list for dropdown ──────────────────────────────────────────
 SUPPORTED_CITIES = (
+    ["Other (National Standard)"] +
     sorted(TIER1.keys()) +
-    sorted(TIER2.keys()) +
-    ["Other (National Standard)"]
+    sorted(TIER2.keys())
 )
-
 BIN_EMOJI = {
     "green": "🟢", "blue": "🔵", "red": "🔴",
     "black": "⚫", "yellow": "🟡", "separate": "⚠️",
