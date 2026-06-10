@@ -1,33 +1,38 @@
 """
 utils/gemini_client.py
-Gemini wrapper using google-generativeai SDK (works on HF Spaces).
+Gemini 3.1 Flash Lite — single call, google-genai SDK.
+15 RPM free tier, handles images + text.
 """
 
 import os, json, logging
 from PIL import Image
 from dotenv import load_dotenv
-import google.generativeai as genai
+from google import genai
 
 load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 logger = logging.getLogger(__name__)
 
-MODEL = "gemini-3.5-flash"
+MODEL = "gemini-3.1-flash-lite"
 CATEGORIES = ["organic", "dry_recyclable", "hazardous", "e_waste", "sanitary", "unknown"]
 
 
 def _call(prompt: str, image: Image.Image = None) -> str:
-    """Single Gemini call with 3 retries."""
+    """Single Gemini call with 3 retries. Waits only on actual 429."""
     for attempt in range(3):
         try:
-            model = genai.GenerativeModel(MODEL)
             contents = [prompt, image] if image else prompt
-            return model.generate_content(contents).text.strip()
+            return client.models.generate_content(model=MODEL, contents=contents).text.strip()
         except Exception as e:
-            if "429" in str(e) or "quota" in str(e).lower():
-                import time; time.sleep(10)
+            err = str(e)
+            if "429" in err or "quota" in err.lower() or "exhausted" in err.lower():
+                import time
+                time.sleep(60)  # wait 60s on rate limit then retry
             elif attempt == 2:
                 raise
+            else:
+                import time
+                time.sleep(3)
 
 
 def _parse(raw: str) -> dict:
@@ -44,12 +49,12 @@ def classify_and_explain(context: str, language: str = "English",
 India waste knowledge base:
 {context}
 
-Reply ONLY in JSON:
+Reply ONLY in this JSON format, no extra text:
 {{
   "item_name": "",
   "category": "organic/dry_recyclable/hazardous/e_waste/sanitary/unknown",
   "confidence": "high/medium/low",
-  "why": "2 sentences why this category and harm of wrong disposal",
+  "why": "2 sentences: why this category and harm of wrong disposal in India",
   "steps": ["step1", "step2", "step3"],
   "warning": "",
   {hindi}
@@ -68,13 +73,19 @@ Reply ONLY in JSON:
         return result
     except Exception as e:
         logger.error(f"Gemini failed: {e}")
-        return {"item_name": description or "Unknown", "category": "unknown",
-                "confidence": "low", "why": "Could not process.",
-                "steps": ["Contact your local municipal corporation."],
-                "warning": "", "hindi_summary": ""}
+        return {
+            "item_name": description or "Unknown",
+            "category": "unknown",
+            "confidence": "low",
+            "why": "Could not process. Please try again.",
+            "steps": ["Contact your local municipal corporation."],
+            "warning": "",
+            "hindi_summary": ""
+        }
 
 
 def test_connection() -> bool:
+    """Test API key. Call once at startup."""
     try:
         return "ok" in _call("Reply with the single word: ok").lower()
     except Exception as e:
