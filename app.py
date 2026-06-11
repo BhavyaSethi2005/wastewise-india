@@ -67,7 +67,10 @@ def clear_all():
 with gr.Blocks(title="WasteWise India", theme=gr.themes.Soft()) as app:
 
     history_state = gr.State(create_history())
-    gr.Markdown("# 🗑️ WasteWise India\nPhoto any waste item → know which bin instantly.")
+    gr.Markdown("""# 🗑️ WasteWise India
+Photo any waste item → know which bin instantly.
+
+_Powered by Gemini 3.1 Flash · Free to use · No login required · 19 Indian cities covered_""")
 
     with gr.Tabs():
         with gr.Tab("📸 Classify"):
