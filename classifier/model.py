@@ -10,14 +10,14 @@ from torchvision import models
 from pathlib import Path
 
 # 5 waste categories our model is trained on
-CLASSES = ["dry_recyclable", "e_waste", "hazardous", "organic", "sanitary"]
+CLASSES = ["organic", "dry_recyclable"]
 WEIGHTS_PATH = Path("model_weights/wastenet_v1.pth")
 
 
 def build_model() -> nn.Module:
     """Build MobileNetV2 with custom output layer for 5 classes."""
     model = models.mobilenet_v2(weights=None)
-    model.classifier[1] = nn.Linear(model.last_channel, len(CLASSES))
+    model.classifier[1] = nn.Linear(model.last_channel, 2)
     return model
 
 
