@@ -11,16 +11,23 @@ from utils.city_rules import SUPPORTED_CITIES
 from utils.geocoder import coords_to_city
 
 BIN_CARD = {
-    "green":    "🟢 GREEN BIN",
-    "blue":     "🔵 BLUE BIN",
-    "red":      "🔴 RED BIN",
-    "black":    "⚫ BLACK BIN",
-    "yellow":   "🟡 YELLOW BIN",
-    "separate": "⚠️ NO SPECIFIC BIN",
+    "green":    ("🟢", "Green Bin"),
+    "blue":     ("🔵", "Blue Bin"),
+    "red":      ("🔴", "Red Bin"),
+    "black":    ("⚫", "Black Bin"),
+    "yellow":   ("🟡", "Yellow Bin"),
+    "separate": ("⚠️", "No Specific Bin"),
 }
 
-# JavaScript to get browser GPS location
-# Calls back to a hidden textbox with "lat,lng" string
+BIN_BG = {
+    "green":    "#1e3a2a",
+    "blue":     "#1e2f47",
+    "red":      "#3a1e1e",
+    "black":    "#2a2a2a",
+    "yellow":   "#3a3520",
+    "separate": "#3a2e1e",
+}
+
 GEOLOCATION_JS = """
 () => {
     return new Promise((resolve) => {
@@ -36,11 +43,73 @@ GEOLOCATION_JS = """
 }
 """
 
+CUSTOM_CSS = """
+.gradio-container { max-width: 1100px !important; margin: auto; }
+#title-block { text-align: center; padding: 1.5rem 0 1.5rem; }
+#title-block h1 { font-size: 2.4rem; margin-bottom: 0.35rem; }
+#title-block p { color: var(--body-text-color-subdued); font-size: 1.05rem; margin: 0; }
+
+.input-panel, .output-panel {
+    border-radius: 16px;
+    padding: 1.25rem;
+    border: 1px solid rgba(255,255,255,0.06);
+    background: rgba(255,255,255,0.02);
+}
+
+.result-card {
+    border-radius: 14px;
+    padding: 1.5rem 1.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(255,255,255,0.08);
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.result-bin {
+    font-size: 1.85rem;
+    font-weight: 700;
+    margin: 0 0 0.35rem 0;
+}
+.result-item {
+    font-size: 1rem;
+    opacity: 0.85;
+    margin: 0;
+}
+.result-action {
+    margin-top: 0.75rem;
+    font-size: 0.95rem;
+    opacity: 0.9;
+    padding-top: 0.6rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.ready-icon {
+    width: 56px; height: 56px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px;
+    margin-bottom: 0.75rem;
+}
+
+#classify-btn { font-size: 1.05rem !important; height: 48px; font-weight: 600; }
+
+/* Align Detect-my-city button with the language radio row */
+#locate-btn { margin-top: 26px; }
+"""
+
 
 def classify(image, text_input, language, city, history_state):
 
     if image is None and not text_input.strip():
-        return "Upload an image or describe the item.", "", "", "", format_history(history_state), "", history_state
+        return (
+            "<div class='result-card' style='background:#3a1e1e'>"
+            "<div class='ready-icon'>⚠️</div>"
+            "<p class='result-bin'>No input yet</p>"
+            "<p class='result-item'>Upload an image or describe the item.</p></div>",
+            "", "", format_history(history_state), "", history_state
+        )
 
     pil_image = Image.fromarray(image) if image is not None else None
 
@@ -50,14 +119,25 @@ def classify(image, text_input, language, city, history_state):
     )
 
     if "error" in result:
-        return result["error"], "", "", "", format_history(updated_history), "", updated_history
+        return (
+            f"<div class='result-card' style='background:#3a1e1e'>"
+            f"<p class='result-bin'>⚠️ Error</p>"
+            f"<p class='result-item'>{result['error']}</p></div>",
+            "", "", format_history(updated_history), "", updated_history
+        )
 
-    bin_card = f"# {BIN_CARD.get(result['bin_color'], '⚠️ NO SPECIFIC BIN')}"
+    bin_color = result["bin_color"]
+    emoji, label = BIN_CARD.get(bin_color, BIN_CARD["separate"])
+    bg = BIN_BG.get(bin_color, BIN_BG["separate"])
 
-    detail = f"""**{result['item_name']}** · {result['category'].replace('_',' ').title()}
-
-**📍 What to do in {city}:**
-{result['city_action']}"""
+    result_html = f"""
+    <div class="result-card" style="background:{bg}">
+        <div class="ready-icon">{emoji}</div>
+        <p class="result-bin">{label}</p>
+        <p class="result-item">{result['item_name']} · {result['category'].replace('_',' ').title()}</p>
+        <p class="result-action">📍 <b>{city}:</b> {result['city_action']}</p>
+    </div>
+    """
 
     why = result["why"]
     if language == "Hindi" and result.get("hindi_summary"):
@@ -67,19 +147,16 @@ def classify(image, text_input, language, city, history_state):
     if result["warning"]:
         steps += f"\n\n⚠️ {result['warning']}"
 
-    return (bin_card, detail, why, steps,
+    return (result_html, why, steps,
             format_history(updated_history), get_stats(updated_history), updated_history)
 
 
 def clear_all():
-    return None, "", "English", "Other (National Standard)", [], "", "", "", "", create_history()
+    return (None, "", "English", "Other (National Standard)", [],
+            "", "", "", "", create_history())
 
 
 def detect_location(coords_str: str):
-    """
-    Called after JS returns 'lat,lng' string.
-    Converts to nearest supported city and updates dropdown.
-    """
     if not coords_str or coords_str.startswith("error"):
         return gr.update(), "⚠️ Could not detect location. Select city manually."
 
@@ -91,7 +168,6 @@ def detect_location(coords_str: str):
         if result["exact_match"]:
             return gr.update(value=city), f"📍 Location detected: **{city}**"
 
-        # Nearest-city fallback — show distance so user knows it's approximate
         name = result["detected_name"]
         dist = result["distance_km"]
         location_label = f" ({name})" if name else ""
@@ -105,39 +181,57 @@ def detect_location(coords_str: str):
         return gr.update(), "⚠️ Could not detect location. Select city manually."
 
 
-with gr.Blocks(title="WasteWise India", theme=gr.themes.Soft()) as app:
+theme = gr.themes.Soft(
+    primary_hue="green",
+    secondary_hue="emerald",
+    neutral_hue="slate",
+).set(
+    button_primary_background_fill="*primary_500",
+    button_primary_background_fill_hover="*primary_600",
+)
+
+with gr.Blocks(title="WasteWise India", theme=theme, css=CUSTOM_CSS) as app:
 
     history_state = gr.State(create_history())
-    coords_box = gr.Textbox(visible=False)  # hidden — receives JS GPS result
+    coords_box = gr.Textbox(visible=False)
 
-    gr.Markdown("""# 🗑️ WasteWise India
-Photo any waste item → know which bin instantly.
-
-_Powered by Gemini 3.1 Flash · Free to use · No login required · 19 Indian cities covered_""")
+    gr.HTML("""
+    <div id="title-block">
+        <h1>🗑️ WasteWise India</h1>
+        <p>Photo any waste item → know exactly which bin it goes in, instantly.</p>
+    </div>
+    """)
 
     with gr.Tabs():
         with gr.Tab("📸 Classify"):
-            with gr.Row():
-                with gr.Column(scale=1):
-                    image_input = gr.Image(label="Upload or take photo", height=250, sources=["upload", "webcam"])
+            with gr.Row(equal_height=True):
+                with gr.Column(scale=5, elem_classes="input-panel"):
+                    image_input = gr.Image(label="Upload or take a photo", height=260,
+                                           sources=["upload", "webcam"])
                     text_input  = gr.Textbox(label="Or describe the item",
                                              placeholder="e.g. medicine strip, broken CFL bulb...")
-                    with gr.Row():
-                        city     = gr.Dropdown(SUPPORTED_CITIES, value="Other (National Standard)",
-                                               label="Your City", allow_custom_value=True)
-                        language = gr.Radio(["English", "Hindi"], value="English", label="Language")
+
+                    city = gr.Dropdown(SUPPORTED_CITIES, value="Other (National Standard)",
+                                      label="Your city", allow_custom_value=True)
 
                     with gr.Row():
-                        locate_btn = gr.Button("📍 Detect My City", size="sm")
+                        language   = gr.Radio(["English", "Hindi"], value="English",
+                                              label="Language", scale=3)
+                        locate_btn = gr.Button("📍 Detect my city", size="sm", scale=2, elem_id="locate-btn")
+
                     location_status = gr.Markdown()
 
                     with gr.Row():
-                        classify_btn = gr.Button("🔍 Classify", variant="primary")
-                        clear_btn    = gr.Button("🔄 Clear")
+                        classify_btn = gr.Button("🔍 Classify", variant="primary", elem_id="classify-btn", scale=3)
+                        clear_btn    = gr.Button("Clear", scale=1)
 
-                with gr.Column(scale=1):
-                    bin_output    = gr.Markdown()
-                    detail_output = gr.Markdown()
+                with gr.Column(scale=5, elem_classes="output-panel"):
+                    result_output = gr.HTML(
+                        "<div class='result-card' style='background:#23282b'>"
+                        "<div class='ready-icon'>👋</div>"
+                        "<p class='result-bin'>Ready when you are</p>"
+                        "<p class='result-item'>Upload a photo or describe an item to get started</p></div>"
+                    )
                     why_output    = gr.Textbox(label="Why this category?", lines=3, interactive=False)
                     steps_output  = gr.Textbox(label="Disposal steps", lines=4, interactive=False)
 
@@ -164,21 +258,20 @@ items — medicine strips, agarbatti ash, thermocol, paan wrappers, broken bulbs
 | Others | ⚠️ Nearest town | Separate | Separate |
             """)
 
-    # ── GPS detection: JS gets coords → fills hidden box → Python converts to city ──
     locate_btn.click(fn=None, inputs=None, outputs=coords_box, js=GEOLOCATION_JS)
     coords_box.change(fn=detect_location, inputs=coords_box, outputs=[city, location_status])
 
     classify_btn.click(
         fn=classify,
         inputs=[image_input, text_input, language, city, history_state],
-        outputs=[bin_output, detail_output, why_output, steps_output,
+        outputs=[result_output, why_output, steps_output,
                  history_display, stats_display, history_state]
     )
     clear_btn.click(
         fn=clear_all,
         inputs=[],
         outputs=[image_input, text_input, language, city, history_state,
-                 bin_output, detail_output, why_output, steps_output, history_state]
+                 result_output, why_output, steps_output, history_state]
     )
 
 if __name__ == "__main__":
