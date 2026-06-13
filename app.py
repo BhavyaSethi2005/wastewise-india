@@ -119,7 +119,7 @@ _Powered by Gemini 3.1 Flash · Free to use · No login required · 19 Indian ci
         with gr.Tab("📸 Classify"):
             with gr.Row():
                 with gr.Column(scale=1):
-                    image_input = gr.Image(label="Upload photo", height=250)
+                    image_input = gr.Image(label="Upload or take photo", height=250, sources=["upload", "webcam"])
                     text_input  = gr.Textbox(label="Or describe the item",
                                              placeholder="e.g. medicine strip, broken CFL bulb...")
                     with gr.Row():
