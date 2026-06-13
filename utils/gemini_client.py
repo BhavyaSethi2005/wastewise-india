@@ -84,7 +84,7 @@ Reply ONLY in this JSON format, no extra text:
         }
 
 
-def test_connection() -> bool:
+def check_connection() -> bool:
     """Test API key. Call once at startup."""
     try:
         return "ok" in _call("Reply with the single word: ok").lower()

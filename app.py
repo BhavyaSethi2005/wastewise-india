@@ -6,7 +6,7 @@ import gradio as gr
 from PIL import Image
 from rag.chain import run_pipeline
 from utils.history import format_history, get_stats, create_history
-from utils.gemini_client import test_connection
+from utils.gemini_client import check_connection
 from utils.city_rules import SUPPORTED_CITIES
 from utils.geocoder import coords_to_city
 
@@ -182,6 +182,6 @@ items — medicine strips, agarbatti ash, thermocol, paan wrappers, broken bulbs
     )
 
 if __name__ == "__main__":
-    if not test_connection():
+    if not check_connection():
         print("WARNING: Gemini API not responding. Check your .env file.")
     app.launch()
