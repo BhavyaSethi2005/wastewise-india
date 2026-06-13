@@ -81,3 +81,4 @@ isort==6.0.1                     # Auto sorts imports cleanly
 # ============================================================
 langchain-huggingface==0.1.2
 google-genai==1.16.0
+requests==2.32.3
